@@ -1,0 +1,24 @@
+create a basic file structure 
+   |-- routes
+   |-- controllers
+   |-- models
+
+
+Create a register route : post request
+     // CHECKLIST
+        // [ DONE: ] validate the request
+        // [ DONE: ] authorise the request
+        // [ DONE: ] check if user is in the database already
+        // [ DONE: ] prepare model
+        // [ DONE: ] store in database
+        // [ DONE: ] generate jwt token
+        // [ DONE: ] send response
+
+create a login route : post request
+     // CHECKLIST
+        // [DONE:] validate the request data
+        // [DONE:] check if user exists in database
+        // [DONE:] varify the password
+        // [DONE:] generate JWT token
+        // [DONE:] Send response with token
+
